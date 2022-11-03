@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #005fff;
-    --primary-color-alpha: #005fff1a;
+    /* --primary-color: #2d4363; */
+    --primary-color: #2d4363;
+    --primary-color-alpha: #2d43631a;
   }
   
   html,
@@ -27,7 +28,8 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #005fff;
+    background: #2d4363;
+    background: #2d4363;
   }
   
   .auth__form-container_image {
@@ -101,8 +103,8 @@
   
   .auth__form-container_fields-content_input input:focus,
   .auth__form-container_fields-content_input input:active {
-    box-shadow: 0px 0px 0px 1.5px #005fff;
-    border-color: #005fff;
+    box-shadow: 0px 0px 0px 1.5px #2d4363;
+    border-color: #2d4363;
   }
   
   .auth__form-container_fields-content_input-password {
@@ -120,8 +122,8 @@
   
   .auth__form-container_fields-content_button button {
     border-radius: 4px;
-    background: #005fff;
-    border: 1px solid #005fff;
+    background: #2d4363;
+    border: 1px solid #2d4363;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -132,7 +134,7 @@
   }
   
   .auth__form-container_fields-content_button button:hover {
-    background: #0066ff;
+    background: #2d4363;
   }
   
   .auth__form-container_fields-account {
@@ -1704,15 +1706,15 @@
     outline: none;
   }
   
-  .team-channerl-header_menu-icon {
+  .team-channel-header_menu-icon {
     display: none;
   }
   
-  .channerl-list__container-toggle {
+  .channel-list__container-toggle {
     display: none;
     height: 50px;
     width: 50px;
-    background: #005fff;
+    background: #2d4363;
     position: absolute;
     right: -2%;
     top: 50%;
@@ -1723,7 +1725,8 @@
   .channel-list__container-responsive {
     display: none;
     height: 100%;
-    box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.1);
+    /* box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.1); */
+    box-shadow: inset 1px 0px 0px #2d4363;
     position: absolute;
     width: 90%;
     top: 0%;
@@ -1741,7 +1744,7 @@
       display: none;
     }
   
-    .team-channerl-header_menu-icon {
+    .team-channel-header_menu-icon {
       display: flex;
     }
   
@@ -1779,7 +1782,7 @@
       width: 100%;
     }
   
-    .channerl-list__container-toggle {
+    .channel-list__container-toggle {
       display: flex;
     }
   
@@ -1804,7 +1807,7 @@
   }
   
   @media screen and (max-width: 650px) {
-    .channerl-list__container-toggle {
+    .channel-list__container-toggle {
       right: -3%;
     }
   }
@@ -1814,7 +1817,7 @@
       width: 150px;
     }
   
-    .channerl-list__container-toggle {
+    .channel-list__container-toggle {
       right: -5%;
     }
   }
