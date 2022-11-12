@@ -12,7 +12,8 @@ const SideBar = ({ logout }) => (
     <div className="channel-list__sidebar">
         <div className="channel-list__sidebar__icon1">
             <div className="icon1__inner">
-                <img src={HospitalIcon} alt="Hospital" width="30" />
+                {/* <img src={HospitalIcon} alt="Hospital" width="30" /> */}
+                <img src = "https://img.favpng.com/25/9/15/logo-college-school-student-png-favpng-pR3CSkTXcyJ5X0pn3F0jYiKt9.jpg" alt="student logo" width="30" />
             </div>
         </div>
         <div className="channel-list__sidebar__icon2">
